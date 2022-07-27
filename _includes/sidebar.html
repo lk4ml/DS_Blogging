@@ -11,6 +11,11 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
+    <!--<a class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}" href="{{ '/' | absolute_url }}">About</a>-->
+
+
+    <a class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}" href="{{site.baseurl}}/about">About</a>
+
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
@@ -24,18 +29,18 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    
+   <!--- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Drug Discovery</a> -->
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Project</a> 
+    <a class="sidebar-nav-item" href="{{ site.baseurl}}/downloads/ltyagi.pdf">Resume</a>
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Drug Discovery</a>
-    <!----> <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub Projects</a> -->
-    <a class="sidebar-nav-item" href="{{ https://github.com/lk4ml?tab=repositories }}">GitHub Projects</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
   </nav>
 
-  <div class="sidebar-item">
+  
+  <!--<div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
-  </div>
+  </div>-->
 </div>
-
-

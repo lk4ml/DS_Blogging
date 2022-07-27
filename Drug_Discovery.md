@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  NLP Blogs in Biomedical Research 
+title:  AI in Drug Discovery 
 
 ---
 
