@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Drug Discovery
+title: Drug Discovery Drug Discovery
 ---
 
 <p class="message">
