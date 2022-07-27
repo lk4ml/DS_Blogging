@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Demo Projects
+title:  Live Demos!!
 
 ---
 
